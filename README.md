@@ -4,20 +4,20 @@
 
 # Pinpoint
 
-**[Pinpoint](https://github.com/alfahrelrifananda/pinpoint)** is a privacy-focused network information app built with Flutter. Detect your public IP, check for VPN/Tor usage, and assess your network privacy with ease.
+A network information app built with Flutter. Check your public IP, detect VPN/Tor usage, and assess your network privacy.
 
 [![Get it on GitHub](https://img.shields.io/badge/Get%20it%20on-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alfahrelrifananda/pinpoint/releases)
 
-## **Features**
+## Features
 
-- **Public IP Detection** – Automatically detect your public IP address with geolocation
-- **VPN & Tor Detection** – Identify if you're using VPN or Tor networks
-- **Network Interface Info** – View detailed local network information
-- **Privacy Assessment** – Check for potential privacy leaks
-- **Custom Providers** – Add your own IP lookup services
-- **Privacy-First** – All data processed locally on your device
+- Detect your public IP address with geolocation
+- Identify VPN or Tor network usage
+- View local network interface details
+- Check for potential privacy leaks
+- Add custom IP lookup providers
+- All data processed locally on your device
 
-## **Tech Stack**
+## Tech Stack
 
 - **Language:** Dart
 - **Framework:** Flutter
@@ -26,15 +26,15 @@
 - **Network:** HTTP package
 - **Storage:** SharedPreferences
 
-## **Getting Started**
+## Getting Started
 
-### **Prerequisites**
+### Prerequisites
 
 - [Flutter SDK](https://flutter.dev/docs/get-started/install) 3.0+ (latest stable version)
-- Android Studio / VS Code with Flutter extensions
+- Android Studio or VS Code with Flutter extensions
 - Android device or emulator (API 24+)
 
-### **Installation**
+### Installation
 
 1. Clone the repository:
    ```bash
@@ -52,7 +52,7 @@
    flutter run
    ```
 
-### **Build for Production**
+### Build for Production
 
 ```bash
 # Android
@@ -65,14 +65,14 @@ flutter build ios --release
 flutter build web --release
 ```
 
-## **Usage**
+## Usage
 
-- **Launch** the app to automatically check your network status
-- **Pull down** to refresh or use the refresh button
-- **Access settings** to add custom IP lookup providers
-- **View detailed** information about your network privacy
+- Launch the app to check your network status
+- Pull down to refresh or use the refresh button
+- Access settings to add custom IP lookup providers
+- View detailed information about your network privacy
 
-## **Detection Methods**
+## Detection Methods
 
 ### VPN Detection
 - ISP and organization name analysis
@@ -86,23 +86,18 @@ flutter build web --release
 - Third-party service verification
 - Known Tor ASN database
 
-## **Privacy**
+## Privacy
 
-All data is processed locally on your device. No information is sent to our servers. The app uses third-party IP lookup services to gather network information, but your data never passes through Pinpoint's infrastructure.
+All data is processed locally on your device. The app uses third-party IP lookup services to gather network information, but nothing is sent to our servers.
 
-## **Contributing**
+## Contributing
 
-Contributions are what make the open-source community thrive! Feel free to:
-
+If you'd like to contribute:
 - Fork the project
 - Open issues for bugs or feature requests
-- Submit pull requests with improvements
+- Submit pull requests
 - Follow [Effective Dart](https://dart.dev/guides/language/effective-dart) guidelines
 
-## **Acknowledgments**
+## License
 
-Thanks to the Flutter team and the open-source community for making this project possible.
-
-## **License**
-
-This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the **GNU General Public License v3.0**. See the [LICENSE](LICENSE) file for details.
