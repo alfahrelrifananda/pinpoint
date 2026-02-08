@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android/app/src/main/res/drawable/widget_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+  <solid android:color="@android:color/transparent" />
+  
+
+  <!-- Rounded corners -->
+  <corners android:radius="28dp" />
+
+  <!-- Subtle elevation shadow -->
+  <stroke android:width="0dp" android:color="@android:color/transparent" />
+</shape>
