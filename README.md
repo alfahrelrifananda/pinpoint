@@ -17,6 +17,14 @@ A network information app built with Flutter. Check your public IP, detect VPN/T
 - Add custom IP lookup providers
 - All data processed locally on your device
 
+## Screenshots
+
+<div style="display: flex; justify-content: space-around; gap: 10px;">
+  <img src="./screenshot/screenshot1.png" width="200">
+  <img src="./screenshot/screenshot2.png" width="200">
+  <img src="./screenshot/screenshot3.png" width="200">
+</div>
+
 ## Tech Stack
 
 - **Language:** Dart
