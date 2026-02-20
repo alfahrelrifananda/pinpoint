@@ -52,7 +52,7 @@ class _IPLocationFocusCardState extends State<IPLocationFocusCard> {
               const SizedBox(height: 20),
               _buildLocationInfo(theme, country, city),
               const SizedBox(height: 8),
-              _buildIPDisplay(theme, publicIP),
+          //    _buildIPDisplay(theme, publicIP),
             ],
           ),
         ),
