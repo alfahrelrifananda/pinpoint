@@ -390,8 +390,8 @@ class NetworkCheckerTabState extends State<NetworkCheckerTab>
             errorMessage: _errorMessage,
           ),
           const SizedBox(height: 16),
-          _buildMapWidget(theme),
-          const SizedBox(height: 16),
+ //         _buildMapWidget(theme),
+ //         const SizedBox(height: 16),
           IPDetailsCard(networkInfo: _networkInfo),
           const SizedBox(height: 16),
           LocalAddressesCard(networkInfo: _networkInfo),
@@ -401,8 +401,8 @@ class NetworkCheckerTabState extends State<NetworkCheckerTab>
             providers: _providers,
             selectedProviderIndex: _selectedProviderIndex,
           ),
-          const SizedBox(height: 16),
-          const PrivacyBanner(),
+ //      const SizedBox(height: 16),
+ //      const PrivacyBanner(),
           const SizedBox(height: 16),
           Row(
             children: [
